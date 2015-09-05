@@ -1,0 +1,50 @@
+@import '../src/vendor/bootstrap-3.3.5-dist/css/bootstrap.min.css';
+
+$bgColor: #f2f2f2;
+$textColor: #444444;
+
+html, body {
+  background-color: $bgColor;
+  color: $textColor;
+}
+
+.todos-container {
+  width: 600px;
+  margin: auto;
+  padding: 10px;
+}
+
+.list-header {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+}
+.newitem {
+  padding: 5px;
+}
+
+.item {
+  padding: 5px;
+  margin: 5px;
+  padding-bottom: 10px;
+  list-style: none;
+  border-bottom: 1px solid #cccccc;
+
+  > input {
+    margin-right: 10px;
+  }
+}
+
+.button {
+  float: right;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.editable {
+  background: #ffffff;
+}
